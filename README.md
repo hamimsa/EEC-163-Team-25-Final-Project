@@ -10,7 +10,7 @@ The repository consists of the following core files:
 * `script.js`: The main application logic. It handles asynchronous data fetching, dynamic data preprocessing, scroll-triggered DOM updates via `IntersectionObserver`, and the rendering/animation logic for all eight D3.js charts.
 * `music_data.csv`: The primary RIAA dataset containing yearly U.S. music revenue and format data.
 
-## Installation
+### Installation
 Because this project utilizes vanilla JavaScript and imports D3.js via a CDN, there are no complex environment setups, `npm install` commands, or dependencies to manage. 
 
 However, because `script.js` uses the native `fetch()` API to load the `music_data.csv` file dynamically, **you cannot simply double-click `main.html` to open it in a browser.** Browsers block local file fetching due to strict CORS (Cross-Origin Resource Sharing) security policies. 
