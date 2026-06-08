@@ -19,6 +19,6 @@ To run the project, you must open the directory through a local web server.
 ## Execution
 1. In VS Code, open the folder containing the repository
 2. Click the "Go Live" button in the bottom right corner to open a local web server
-3. Ensure that there is an internet connection as the project loads an image from unsplash.com for the background
+3. Ensure that there is an internet connection as the project loads an image from the internet for the background
 
 Data is processed within `script.js` and there are no preprocessing scripts.
